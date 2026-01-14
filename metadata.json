@@ -1,0 +1,7 @@
+{
+  "name": "Guess the Animal Sound - Kids Adventure",
+  "description": "A vibrant, educational game for children to learn animal sounds through interactive levels, joyful animations, and engaging sound matching.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
