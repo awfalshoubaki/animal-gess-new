@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خمن صوت الحيوان</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Fredoka', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      background: #f0f9ff;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .custom-shadow {
+      box-shadow: 0 8px 0 rgba(0,0,0,0.1);
+    }
+    .btn-bounce:active {
+      transform: translateY(4px);
+      box-shadow: 0 4px 0 rgba(0,0,0,0.1);
+    }
+    /* تحسين الأداء عبر تقليل التعقيد الرسومي عند الحاجة */
+    .smooth-transition {
+      backface-visibility: hidden;
+      transform: translateZ(0);
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.26.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div id="root"></div>
+  <!-- هذا السطر كان مفقوداً وهو سبب ظهور الصفحة الفارغة -->
+  <script type="module" src="./index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
